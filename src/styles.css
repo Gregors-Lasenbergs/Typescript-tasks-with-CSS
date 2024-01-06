@@ -1,0 +1,154 @@
+body {
+    background-color: #FFFFFF;
+    --c-btn1: #017187;
+    --c-btn2: #5C0187B5;
+    --c-btn3: #8711018F;
+    --c-btn4: #01870EA1;
+    --c-btn5: #E2CF22;
+    --c-btn6: #011E87;
+    --c-light-grey: #E5E7EB;
+
+    margin: 3rem 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 100%;
+}
+
+::placeholder{
+    color: var(--c-light-grey);
+}
+
+.button{
+    height: 68px;
+    width: 162px;
+    font-size: 20px;
+    font-family: ABeeZee,sans-serif;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+
+    transition: 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        background-color: gray;
+    }
+}
+
+.largeCubes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 4rem;
+}
+
+.cube{
+    width: 400px;
+    height: 400px;
+    background-color: #1FC2AE;
+
+    transition: 0.3s;
+}
+
+.cube1{
+
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.cube2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.cube5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+}
+
+.cube6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+}
+
+.cube7{
+    background-color: #18D5E1;
+}
+
+.color1{
+    background-color: var(--c-btn1);
+}
+
+.color2{
+    background-color: var(--c-btn2);
+}
+
+.color3{
+    background-color: var(--c-btn3);
+}
+
+.color4{
+    background-color: var(--c-btn4);
+}
+
+.color5{
+    background-color: var(--c-btn5);
+}
+
+.color6{
+    background-color: var(--c-btn6);
+}
+
+.color7{
+    background-color: #18D5E1;
+}
+
+.color8{
+    background-color: #000000;
+}
+
+.pageBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+
+.textArea{
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-color: var(--c-light-grey);
+    border-style: solid;
+    padding-left: 1rem;
+}
+
+.appearingText{
+    width: 5rem;
+    height: 3rem;
+    font-size: 16px;
+}
