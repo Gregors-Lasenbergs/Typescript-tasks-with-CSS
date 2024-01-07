@@ -1,18 +1,18 @@
 const buttons = document.querySelectorAll('button');
 
-const cubes :HTMLDivElement[] = Array.from(document.querySelectorAll('.cube'));
+const cubes :HTMLDivElement[] = Array.from(document.querySelectorAll('.large-cubes__cube'));
 
 const body :HTMLBodyElement = document.querySelector('body');
 
-const textArea :HTMLTextAreaElement = document.querySelector('.textArea');
+const textArea :HTMLTextAreaElement = document.querySelector('.page-bottom__text-area');
 
-const appearingText :HTMLDivElement = document.querySelector('.appearingText');
+const appearingText :HTMLDivElement = document.querySelector('.page-bottom__appearing-text');
+
+const colors: string[] = ['color2', 'color3', 'color4', 'color5', 'color6'];
 
 buttons[0].addEventListener('click', () => {
   cubes[0].classList.add('yellow');
 });
-
-const colors: string[] = ['color2', 'color3', 'color4', 'color5', 'color6'];
 
 cubes[0].addEventListener('mouseenter', () => {
   cubes[0].classList.add('red');

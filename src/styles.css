@@ -22,14 +22,14 @@ nav{
     color: var(--c-light-grey);
 }
 
-.button{
+.page-bottom__button{
     height: 68px;
     width: 162px;
     font-size: 20px;
     font-family: ABeeZee,sans-serif;
     border-style: none;
     border-radius: 0.5rem;
-    color: #FFFFFF;
+    color: white;
 
     transition: 0.3s;
 
@@ -39,7 +39,7 @@ nav{
     }
 }
 
-.largeCubes{
+.large-cubes{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@ nav{
     gap: 4rem;
 }
 
-.cube{
+.large-cubes__cube{
     width: 400px;
     height: 400px;
     background-color: #1FC2AE;
@@ -56,27 +56,11 @@ nav{
     transition: 0.3s;
 }
 
-.cube1{
-
-}
-
-.yellow{
-    background-color: yellow;
-}
-
-.red{
-    background-color: red;
-}
-
 .cube2{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 56px;
-}
-
-.invisible{
-    visibility: hidden;
 }
 
 .cube5{
@@ -93,8 +77,40 @@ nav{
     font-size: 56px;
 }
 
-.cube7{
-    background-color: #18D5E1;
+.page-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+
+.page-bottom__text-area{
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-color: var(--c-light-grey);
+    border-style: solid;
+    padding-left: 1rem;
+}
+
+.page-bottom__appearing-text{
+    width: 5rem;
+    height: 3rem;
+    font-size: 16px;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
 }
 
 .color1{
@@ -127,28 +143,4 @@ nav{
 
 .color8{
     background-color: #000000;
-}
-
-.pageBottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 2rem;
-}
-
-.textArea{
-    color: black;
-    width: 10rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    border-color: var(--c-light-grey);
-    border-style: solid;
-    padding-left: 1rem;
-}
-
-.appearingText{
-    width: 5rem;
-    height: 3rem;
-    font-size: 16px;
 }
