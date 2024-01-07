@@ -95,6 +95,6 @@ buttons[6].addEventListener('click', () => {
   });
 });
 
-textArea.addEventListener('change', () => {
+textArea.addEventListener('input', () => {
   appearingText.innerText = textArea.value;
 });
